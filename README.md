@@ -7,3 +7,5 @@ This dataset is currently the largest portrait matting dataset, containing 34,42
 The data set was marked by the high quality of Beijing Play Star Convergence Technology Co., Ltd., and the portrait soft segmentation model trained using this data set has been commercialized.
 The original images in the dataset are from Flickr, Baidu, and Taobao. After face detection and area cropping, a half-length portrait of 600*800 was generated.
 The clip_img directory is a half-length portrait image in the format jpg; the matting directory is the corresponding matting file (convenient to confirm the matting quality), the format is png, you should first extract the alpha map from the png image before training. For example, using opencv you can get an alpha map like this:
+
+https://www.kaggle.com/code/akami14/bg-alt/edit/run/186790895
